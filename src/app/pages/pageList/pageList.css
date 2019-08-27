@@ -1,0 +1,22 @@
+        .tabs {
+            background: #e8e8e8;
+            background: -moz-linear-gradient(top, #e8e8e8 0%, #7f7f7f 1%, #000000 53%, #000000 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e8e8e8), color-stop(1%, #7f7f7f), color-stop(53%, #000000), color-stop(100%, #000000));
+            background: -webkit-linear-gradient(top, #e8e8e8 0%, #7f7f7f 1%, #000000 53%, #000000 100%);
+            background: -o-linear-gradient(top, #e8e8e8 0%, #7f7f7f 1%, #000000 53%, #000000 100%);
+            background: -ms-linear-gradient(top, #e8e8e8 0%, #7f7f7f 1%, #000000 53%, #000000 100%);
+            background: linear-gradient(to bottom, #e8e8e8 0%, #7f7f7f 1%, #000000 53%, #000000 100%);
+            filter: DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#000000', GradientType=0);
+        }
+        
+        .tab-item {
+            color: white;
+        }
+        
+        .tab-item-active {
+            color: #87CEEB;
+        }
+        #page-list-view {
+              background:black;
+              color:white;  
+        }

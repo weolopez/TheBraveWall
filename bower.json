@@ -1,0 +1,29 @@
+{
+  "name": "mobilithonfall2015",
+  "version": "0.0.1",
+  "authors": [
+    "Lopez",
+    "Mauricio (ml5174) <ml5174@att.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.1.0",
+    "angular": "~1.4.3",
+    "angular-mocks": "~1.4.3",
+    "angular-resource": "~1.4.3",
+    "angular-sanitize": "~1.4.3"
+  },
+  "dependencies": {
+    "firebase": "~2.3.0",
+    "ionic": "~1.1.0",
+    "ngToast": "ngtoast#~1.5.6"
+  }
+}

@@ -1,0 +1,206 @@
+.ion-home {
+    color: #132551;
+    font-size: 20px;
+}
+#splash-image  {
+    width: auto;
+    height: auto;
+    max-height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#search button {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    z-index: 10;
+}
+#search button.ion-ios-gear{
+    right: 40px;
+}
+
+.pane .row { margin: 0 auto; }
+
+.panel-scroll{
+    width: 500px; 
+    height: 500px;
+    background: #111;
+}
+.textright {
+    text-align: right;
+}
+.panel-name {
+    margin: 0;
+    line-height: 1.5;
+    -webkit-text-size-adjust: none;
+    color: white;
+}
+.panel-name a.selected-name{
+    color: yellow;
+    font-size: 200%;
+}
+.panel-name a{
+    color: white;
+}
+.panel-background {
+    background-color: white;
+}
+#panels-view {
+    padding-top: 45px;
+    padding-bottom: 35px;
+}
+.wall-panel{
+    padding: 5%;
+    padding-bottom: 35px;
+    overflow: auto;
+    height: auto;
+    background-color: #111;
+}#132551
+
+.panel-small {
+    background-color: #111;
+    color: white;
+    height: 30px;
+    border: none;
+}
+
+
+#slide-box {
+    width: 100%;
+    height: 100%;
+}
+#panel-list-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+
+.details-view button{
+    line-height: 1.25;
+}
+
+
+button.hamberger:before{
+    color: #132551;
+    font-weight: bold;
+    width:32px;height:32px;font-size: 20px;padding: 0;margin: 0;
+}
+
+
+#search {
+    position: absolute;
+    top: 45px;
+    z-index: 4;
+    width: 100%;
+}
+#search button:before  {
+    font-size: 34px;
+    margin-right: 2% 0;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #132551;
+    border: 0;
+}
+
+#social-icons {    
+    height: 30px;
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    z-index: 10;
+} 
+#social-icons button {
+    min-height: 30px;
+}
+
+.advanced-search #keyboard {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 162px;
+    background-color: silver;
+}
+
+.advanced-search #recommendation {
+    width: 100%;
+}
+
+.advanced-search .fade {
+    transition: 1s linear all;
+    -webkit-transition: 1s linear all;
+    opacity: 0;
+}
+
+.advanced-search .fade.ng-enter {
+    opacity: 0;
+}
+
+.advanced-search .fade.ng-enter.ng-enter-active {
+    opacity: 0;
+}
+
+.advanced-search .fade.ng-leave {
+    opacity: 0;
+}
+
+.advanced-search .fade.ng-leave.ng-leave-active {
+    opacity: 0;
+}
+.advanced-search .file-input {
+    z-index: 10;
+    position: absolute;
+    right: -184px;
+    top: 7px;
+    opacity: 0;
+}
+.advanced-search .button {
+    background: none;
+    color: #132551;
+    border: 0;
+}        
+
+.advanced-search .cropArea {
+    background: none;
+    color: #132551;
+    border: 0;
+    overflow: hidden;
+    width: 100%;
+    height:400px;
+}
+
+.wall-info {
+    
+}
+.wall-info-content {
+    padding: 5%;
+}
+
+.wall-info-content li {
+    margin-bottom: 1em;
+}
+
+.donate-view p {
+    margin: 0.5em 1em;
+}
+.donate-view .button-bar .item-radio .item-content  {
+    padding-right: 40px;
+}
+body .button.button-positive {
+    background-color: #132551;
+    border-color:  #132551;
+}
+
+.button.ion-social-facebook {
+    background-color: #3b5999;
+    color: white;
+    border-color:  #3b5999;
+}
+body .button.button-assertive {
+    background-color: #cc0d04;
+    border-color:  #cc0d04;
+}

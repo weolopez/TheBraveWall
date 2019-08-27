@@ -1,0 +1,13 @@
+<ion-view view-title="Search Results">
+    <ion-content>
+        <div class="list">
+            <a  ng-repeat="vet in vm.WallService.vets"
+                class="item item-avatar" 
+                href="#/wall/details/{{::vet.serviceNo}}">
+                <img src="{{vm.getUrl(vet.service)}}">
+                <h2>{{::vet.wallName}}</h2>
+                <p>Panel/Row: {{::vet.panel}}/{{::vet.rowNumber}}</p>
+            </a>
+        </div>
+    </ion-content>
+</ion-view>

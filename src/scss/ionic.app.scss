@@ -1,0 +1,45 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "./bower_components/ionic/scss/ionic";
+
+$dark:                            #000 !default;
+
+.dark-gradient {
+    background: #b5b5b5;
+    background: -moz-linear-gradient(top,  #b5b5b5 0%, #212121 48%, #000000 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b5b5b5), color-stop(48%,#212121), color-stop(100%,#000000));
+    background: -webkit-linear-gradient(top,  #b5b5b5 0%,#212121 48%,#000000 100%);
+    background: -o-linear-gradient(top,  #b5b5b5 0%,#212121 48%,#000000 100%);
+    background: -ms-linear-gradient(top,  #b5b5b5 0%,#212121 48%,#000000 100%);
+    background: linear-gradient(to bottom,  #b5b5b5 0%,#212121 48%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5b5b5', endColorstr='#000000',GradientType=0 );
+}
+.att-orange-background-gradient {
+    background: #fcb314;
+    background: -moz-linear-gradient(top,  #fcb314 7%, #ef6f00 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(7%,#fcb314), color-stop(100%,#ef6f00));
+    background: -webkit-linear-gradient(top,  #fcb314 7%,#ef6f00 100%);
+    background: -o-linear-gradient(top,  #fcb314 7%,#ef6f00 100%);
+    background: -ms-linear-gradient(top,  #fcb314 7%,#ef6f00 100%);
+    background: linear-gradient(to bottom,  #fcb314 7%,#ef6f00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcb314', endColorstr='#ef6f00',GradientType=0 );
+}

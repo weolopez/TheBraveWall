@@ -1,0 +1,19 @@
+<ion-scroll zooming="true" 
+            direction="xy" 
+            minZoom=".001" 
+            paging="false" 
+            locking="false" 
+            has-bouncing="true"
+            id="panel-background"
+            delegate-handle="{{panelid}}"
+            class="panel-scroll"
+            style="height: {{::clientHeight}}px;width: {{clientWidth}}px"
+            >
+    <section class="wall-panel" ng-if="isShowing" style="width: {{panelcharcount}}px">
+        <p ng-repeat="row in rows track by $index"
+           class="panel-name"
+           ng-class="{'textright': justification}"
+           ng-bind-html="getRow(row)"
+           ></p>     
+    </section>	
+</ion-scroll>

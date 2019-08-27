@@ -1,0 +1,12 @@
+<section id="search" ng-show="vm.SearchString.isSearching" ng-init="SearchString.isSearching = false;">
+    <label class="item item-input">
+        <input type="search" placeholder="Search Wall Name" ng-model="SearchString.searchValue">
+    </label>
+        <button class="button button-icon ion-ios-gear" 
+                ng-click="advancedSearch()">
+        </button>
+
+        <button class="button button-icon ion-search" 
+                ng-click="search()">
+        </button>
+</section> 
